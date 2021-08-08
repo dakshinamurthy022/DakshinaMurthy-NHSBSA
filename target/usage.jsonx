@@ -1,0 +1,77 @@
+[
+  {
+    "source": "^I am a person from Wales$",
+    "steps": [
+      {
+        "name": "I am a person from Wales",
+        "aggregatedDurations": {
+          "average": 0.65152925,
+          "median": 0.65152925
+        },
+        "durations": [
+          {
+            "duration": 0.7515593,
+            "location": "EligibiliyCheck.feature:5"
+          },
+          {
+            "duration": 0.5514992,
+            "location": "EligibiliyCheck.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I entered DOB for (\\d+) years$",
+    "steps": [
+      {
+        "name": "I entered DOB for 16 years",
+        "aggregatedDurations": {
+          "average": 1.6099254,
+          "median": 1.6099254
+        },
+        "durations": [
+          {
+            "duration": 1.6099254,
+            "location": "EligibiliyCheck.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "I entered DOB for 35 years",
+        "aggregatedDurations": {
+          "average": 3.6658985,
+          "median": 3.6658985
+        },
+        "durations": [
+          {
+            "duration": 3.6658985,
+            "location": "EligibiliyCheck.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should get a result of whether I will get help or not$",
+    "steps": [
+      {
+        "name": "I should get a result of whether I will get help or not",
+        "aggregatedDurations": {
+          "average": 0.0586151,
+          "median": 0.0586151
+        },
+        "durations": [
+          {
+            "duration": 0.0568024,
+            "location": "EligibiliyCheck.feature:7"
+          },
+          {
+            "duration": 0.0604278,
+            "location": "EligibiliyCheck.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
